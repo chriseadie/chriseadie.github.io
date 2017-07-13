@@ -1,0 +1,202 @@
+html, body{
+  overflow-x: hidden;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  background-color: black;
+}
+h1{
+  margin-top: 20px;
+  text-align: center;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+}
+header{
+  box-sizing: border-box;
+  display: block;
+  height: 960px;
+  position: fixed;
+  top: 0px;
+  width: 250px;
+  background-color: white;
+}
+.outer{
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  top: 300px;
+  width: 250px;
+  height: 250px;
+}
+.inner{
+  box-sizing: border-box;
+  display: block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.nav ul{
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+}
+.nav li a{
+  text-decoration: none;
+  color: black;
+}
+.nav li{
+  margin-top: 20px;
+}
+
+.navbar-inverse{
+  background-color: white;
+  border-color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: black;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: black;
+}
+nav{
+  display: none;
+}
+
+section{
+  box-sizing: border-box;
+  display: block;
+  margin-left: 250px;
+  background-color: white;
+}
+#promo{
+  height: 400px;
+  background-image: url(images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#about{
+//*  background-color: white; *//
+  color: black;
+}
+#about h1{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#description{
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#exp h1{
+  padding-top: 30px;
+}
+#work1{
+  height: 300px;
+  overflow: hidden;
+}
+#work1 img{
+  max-width: 100%;
+  transition: all 0.3s;
+}
+#work1:hover img{
+  transform: scale(1.1);
+}
+#work2{
+  height: 300px;
+  overflow: hidden;
+}
+#work2 img{
+  max-width: 100%;
+  transition: all 0.3s;
+}
+#work2:hover img{
+  transform: scale(1.1);
+}
+#work3{
+  height: 300px;
+  overflow: hidden;
+}
+#work3 img{
+  max-width: 100%;
+  transition: all 0.3s;
+}
+#work3:hover img{
+  transform: scale(1.1);
+}
+
+#projects{
+  height: 400px;
+}
+#project h3{
+  text-align: center;
+}
+#pro_one{
+  height: 300px;
+  width: 300px;
+}
+#pro_two{
+  height: 300px;
+  width: 300px;
+}
+#contact{
+  height: 360px;
+  margin-top: 70px;
+}
+
+#contact a{
+  margin-top: 50px;
+  color: white;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+#details{
+  text-align: center;
+}
+footer{
+  height: 80px;
+  background-color: black;
+}
+footer p{
+  color: white;
+  text-align: center;
+}
+
+
+@media (max-width: 768px){
+
+  header{
+    display: none;
+    width: 0px;
+  }
+  section{
+    margin-left: 0px;
+  }
+  .outer{
+    display: none;
+    width: 0px;
+  }
+  .inner{
+    display: none;
+    width: 0px;
+  }
+  nav{
+    display: block;
+  }
+}
