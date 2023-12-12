@@ -1,10 +1,19 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './global.styles'
+import ErrorBoundary from './errorBoundary'
+import { WeatherApi } from './apis/weatherapi/weatherapi'
+
+var result = new WeatherApi();
+
+(async () => {
+    console.log(await result.getCurrentForcast())
+})()
 
 const container = document.getElementById('app-root')!
 const root = createRoot(container)
 root.render(
+    <ErrorBoundary>
     <div id="site-wrap">
         <div className="banner">
             <div className="banner__text">
@@ -15,4 +24,5 @@ root.render(
             </div>
         </div>
     </div>
+    </ErrorBoundary>
 )
