@@ -33488,8 +33488,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.css */ "./src/app.css");
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.css */ "./src/app.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
 
 
 
@@ -33502,7 +33502,7 @@ root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { 
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Hello"),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "I am"),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Chris Eadie"),
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Front End Web Developer")))));
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Software Engineer")))));
 
 })();
 
