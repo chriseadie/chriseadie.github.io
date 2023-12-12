@@ -4,7 +4,7 @@ import axios from 'axios'
 
 export class WeatherApi implements IWeatherApi {
     
-    private apiKey = "79403c00176ee7f4e71870efcfdd372b";
+    private apiKey = "";
     private lat:string = "55.8554082";
     private lon:string = "-4.3152956";
     private apiRoot = `https://api.openweathermap.org/data/2.5/weather?lat=${this.lat}&lon=${this.lon}&appid=${this.apiKey}`
