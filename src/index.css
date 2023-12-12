@@ -1,0 +1,157 @@
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background-image: url('https://images.unsplash.com/photo-1506971456216-7b494f54d588?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=802308f2ab4504df4ca8dee210c76701&auto=format&fit=crop&w=2466&q=80');
+}
+.banner__text{
+  padding-right: 5rem;
+}
+.banner h1{
+  font-size: 120px;
+  color: white;
+}
+.banner h2{
+  font-size: 70px;
+  color: white;
+}
+.opening{
+  margin-top: 1rem;
+  min-height: 25rem;
+}
+.imageblock{
+  background-image: url('https://images.unsplash.com/photo-1511546395756-590dffdcdbd1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb6c2fb68225c3cfac850fdf4a4cee25&auto=format&fit=crop&w=2550&q=80');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.contentblock{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.contentblock h2{
+  font-size: 3rem;
+}
+.portfolio h3{
+  font-size: 3rem;
+}
+.portfolio .flex-container{
+  margin: 0 -1rem;
+}
+.port__item{
+  min-height: 200px;
+  max-width: 33.3%;
+  margin: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 4px 20px lightgrey;
+          box-shadow: 2px 4px 20px lightgrey;
+}
+.port__item img{
+  width: 100%;
+  height: auto;
+}
+footer{
+  background: lightgrey;
+  padding: 3rem;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer a{
+  color: white;
+}
+.solopage footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.visitpage footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.pestopage footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.ensapage footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.solopage h1{
+  padding: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.visitpage h1{
+  padding: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.pestopage h1{
+  padding: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.ensapage h1{
+  padding: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.evatext{
+  text-align: left;
+}
+.evatext img{
+  width: 100%;
+  height: auto;
+}
+.social{
+  color: white;
+  text-align: left;
+}
+.social__icon{
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* .evasolo{
+  background-image:url('https://chriseadie.github.io/images/evasolo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.visitvest{
+  background-image:url('https://chriseadie.github.io/images/visit.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pastapest{
+  background-image: url('https://chriseadie.github.io/images/abpp.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vbase{
+  background-image: url('images/vbase.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
