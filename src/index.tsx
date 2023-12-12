@@ -1,7 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import "./index.css"
 import "./app.css"
+import "./index.css"
 
 const container = document.getElementById('app-root')!
 const root = createRoot(container)
@@ -12,7 +12,7 @@ root.render(
                 <h1>Hello</h1>
                 <h1>I am</h1>
                 <h1>Chris Eadie</h1>
-                <h2>Front End Web Developer</h2>
+                <h2>Software Engineer</h2>
             </div>
         </div>
     </div>
