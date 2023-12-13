@@ -40,7 +40,27 @@ p{
   -ms-flex: 2 1;
       flex: 2 1;
 }
+
 a{
   text-decoration: none;
   color: black;
+}
+
+.mr-2{
+  margin-right: 2rem;
+}
+.ml-2{
+  margin-left: 2rem;
+}
+.ml-5{
+  margin-left: 5rem;
+}
+
+.underline{
+  text-decoration: underline;
+  color:white
+}
+
+.capitalize{
+  text-transform: capitalize;
 }

@@ -7,19 +7,16 @@
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: end;
-      align-items: flex-end;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   background-image: url('https://images.unsplash.com/photo-1506971456216-7b494f54d588?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=802308f2ab4504df4ca8dee210c76701&auto=format&fit=crop&w=2466&q=80');
 }
 .banner__text{
   padding-right: 5rem;
 }
 .banner h1{
-  font-size: 120px;
+  font-size: 80px;
   color: white;
 }
 .banner h2{
@@ -133,25 +130,4 @@ footer a{
   font-size: 1.5rem;
   padding-right: 1rem;
 }
-
-/* .evasolo{
-  background-image:url('https://chriseadie.github.io/images/evasolo.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.visitvest{
-  background-image:url('https://chriseadie.github.io/images/visit.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.pastapest{
-  background-image: url('https://chriseadie.github.io/images/abpp.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.vbase{
-  background-image: url('images/vbase.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
 
