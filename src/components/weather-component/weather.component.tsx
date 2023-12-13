@@ -26,7 +26,7 @@ export function WeatherComponent(){
     return (
         <div className="weather-container mr-2 ml-5">
             <span style={{fontSize:"4rem",color:"white"}}><WeatherIcon id={state.id} /></span>
-            <h2>The current weather in Glasgow is <span className="underline capitalize" style={{textWrap:"nowrap"}}>{state.desc}</span></h2>
+            <h2>The current weather in Glasgow is <span className="underline capitalize">{state.desc}</span></h2>
         </div>
     )
 }
