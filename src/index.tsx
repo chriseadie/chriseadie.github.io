@@ -2,12 +2,13 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './global.styles'
 import ErrorBoundary from './errorBoundary'
-import { App } from './app'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './components/router'
 
 const container = document.getElementById('app-root')!
 const root = createRoot(container)
 root.render(
     <ErrorBoundary>
-        <App/>
+        <RouterProvider router={router} />
     </ErrorBoundary>
 )
