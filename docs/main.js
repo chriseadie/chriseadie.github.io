@@ -40881,7 +40881,7 @@ function WeatherComponent() {
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement(WeatherIcon, { id: state.id })),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null,
             "The current weather in Glasgow is ",
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", { className: "underline capitalize", style: { textWrap: "nowrap" } }, state.desc))));
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", { className: "underline capitalize" }, state.desc))));
 }
 function WeatherIcon({ id }) {
     if (id == 0)
