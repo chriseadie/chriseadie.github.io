@@ -1,5 +1,9 @@
-
+import axios from "axios"
 
 export class ApiController {
-    public apiRoot:string = 'http://localhost:3030'
+
+    constructor(){
+        axios.defaults.headers.common['ngrok-skip-browser-warning'] = 'latest';
+    }
+    public apiRoot:string = 'https://a306-78-149-128-70.ngrok-free.app'
 }
