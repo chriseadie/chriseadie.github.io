@@ -31,7 +31,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'index.html',
     }),
-    new MiniCssExtractPlugin(),
-    new Dotenv()
+    new MiniCssExtractPlugin()
   ],
 };
