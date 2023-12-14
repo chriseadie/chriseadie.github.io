@@ -15,7 +15,7 @@ export function WeatherComponent(){
 
     useEffect(() => {
         weatherService.getCurrentForcast().then((res) => {
-            let weather = res.data.weather[0];
+            let weather = res.data
             setState({
                 desc:weather.description,
                 id:weather.id
