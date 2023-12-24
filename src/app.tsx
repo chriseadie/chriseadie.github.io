@@ -1,6 +1,8 @@
 import React from "react";
 import { WeatherComponent } from "./components/weather-component/weather.component";
 import { Footer } from "./components/Footer/footer.component";
+import { NavigationBar } from "./components/Navigation/navbar.component";
+import { SideNavigation } from "./components/Navigation/sidemenu.component";
 
 export function App() {
     return (
@@ -20,7 +22,6 @@ export function App() {
                 </div>
             </div>
         </div>
-        <Footer/>
         </>
     )
 }
