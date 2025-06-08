@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+
+<section class="flex justify-center items-center h-full w-full">
+    <div class="w-180 h-120 p-4 bg-[#A0C878] dark:bg-[#262626] dark:text-white flex flex-col justify-center items-center rounded-2xl">    
+        <div class="input-group mt-5 w-xl">
+            <label class="mb-2">Name</label>
+            <input type="text" placeholder="Please enter your name" class="w-full h-9 bg-white pl-2 rounded-xl"/>
+        </div>
+        <div class="input-group mt-5 w-xl">
+            <label class="mb-2">Email</label>
+            <input type="email" placeholder="Please enter your email" class="w-full h-9 bg-white pl-2 rounded-xl"/>
+        </div>
+        <div class="input-group mt-5 w-xl">
+            <label class="mb-2">Message</label>
+            <textarea type="text" placeholder="What would you like to discuss" class="bg-white resize-none rounded-xl p-2 w-full h-35"></textarea>
+        </div>
+        <div class="w-full flex justify-center items-center mt-5">
+            <button class="cursor-pointer p-3 dark:text-black w-[100px] rounded-xl bg-white">Send</button>
+        </div>
+    </div>
+</section>

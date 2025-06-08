@@ -1,0 +1,4 @@
+Sitemap: https://www.chriseadie.com/sitemap.xml
+
+User-agent: *
+Disallow:

@@ -1,0 +1,20 @@
+[
+    {
+        "lang":"en",
+        "blog":"Blog",
+        "text1": "My name is Chris Eadie,",
+        "text2": "I'm a software engineer working and living in Glasgow",
+        "text3": "I am skilled in many programming languages &amp; frameworks and have an keen interest in building complex system",
+        "text4": "Socials",
+        "text5": "Got a project in mind?"
+    },
+    {
+        "lang":"dk",
+        "blog":"Blog",
+        "text1": "Mit navn er Chris Eadie,",
+        "text2": "Jeg er softwareingeniør og bor og arbejder i Glasgow",
+        "text3": "Jeg er dygtig i mange programmeringssprog og frameworks og har en stor interesse i at bygge komplekse systemer.",
+        "text4": "Socials",
+        "text5": "Har du et projekt i tankerne?"
+    }
+]

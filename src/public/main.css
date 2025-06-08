@@ -1,0 +1,50 @@
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+:root {
+  color-scheme: light dark; /* both supported */
+}
+
+body.dark img {
+  filter: brightness(.8) contrast(1.2);
+}
+
+/* Or apply it via media query */
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+}
+
+@font-face {
+  font-family: notosans;
+  src: url(./fonts/NotoSans-VariableFont.ttf);
+}
+
+@font-face {
+  font-family: rubic;
+  src: url(./fonts/Rubik-VariableFont.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: rubic;
+}
+
+p,
+small,
+label,
+a {
+  font-family: notosans;
+}
+
+label{
+  display: block;
+}
