@@ -11,18 +11,11 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-xl: 36rem;
-    --text-xl: 1.25rem;
-    --text-xl--line-height: calc(1.75 / 1.25);
-    --text-2xl: 1.5rem;
-    --text-2xl--line-height: calc(2 / 1.5);
-    --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
-    --text-6xl: 3.75rem;
-    --text-6xl--line-height: 1;
+    --font-weight-bold: 700;
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
     --default-transition-duration: 150ms;
@@ -237,11 +230,20 @@
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
+  .mt-\[80px\] {
+    margin-top: 80px;
+  }
+  .mt-\[100px\] {
+    margin-top: 100px;
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -318,11 +320,20 @@
   .w-xl {
     width: var(--container-xl);
   }
+  .flex-shrink {
+    flex-shrink: 1;
+  }
   .shrink {
     flex-shrink: 1;
   }
+  .flex-grow {
+    flex-grow: 1;
+  }
   .grow {
     flex-grow: 1;
+  }
+  .border-collapse {
+    border-collapse: collapse;
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
@@ -376,6 +387,9 @@
   .bg-\[url\(\/public\/imgs\/castle-on-loch\.jpg\)\] {
     background-image: url(/public/imgs/castle-on-loch.jpg);
   }
+  .bg-\[url\(\/public\/imgs\/coffee\.jpg\)\] {
+    background-image: url(/public/imgs/coffee.jpg);
+  }
   .bg-\[url\(\/public\/imgs\/hiking\.jpg\)\] {
     background-image: url(/public/imgs/hiking.jpg);
   }
@@ -397,6 +411,12 @@
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
   }
+  .text-center {
+    text-align: center;
+  }
+  .align-middle {
+    vertical-align: middle;
+  }
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
@@ -408,17 +428,33 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
   .text-\[35px\] {
     font-size: 35px;
   }
   .text-\[36px\] {
     font-size: 36px;
   }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .text-\[50px\] {
     font-size: 50px;
   }
+  .text-\[100px\] {
+    font-size: 100px;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
   .text-wrap {
     text-wrap: wrap;
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .capitalize {
     text-transform: capitalize;
@@ -525,6 +561,10 @@ label {
   inherits: false;
   initial-value: solid;
 }
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
@@ -592,6 +632,7 @@ label {
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-border-style: solid;
+      --tw-font-weight: initial;
       --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;

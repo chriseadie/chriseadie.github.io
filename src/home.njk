@@ -6,6 +6,7 @@ pagination:
     size: 1
     alias: localizer
 permalink: /{{localizer.lang}}/index.html
+lang: {{localizer.lang}}
 ---
 
 <section class="flex justify-center items-center h-full w-full">
@@ -14,7 +15,7 @@ permalink: /{{localizer.lang}}/index.html
         <div>
             <div class="flex">
                 <a href="">
-                    <div id="sq-1" class="bg-[#FAF6E9] dark:bg-[#262626] p-4 dark:text-white rounded-2xl w-120 h-60 flex items-center justify-center">
+                    <div id="sq-1" class="bg-[#FAF6E9] dark:bg-[#262626] p-4 text-black dark:text-white rounded-2xl w-120 h-60 flex items-center justify-center">
                         <h2 class="text-5xl text-wrap">
                             {{localizer.blog}}
                         </h2>
@@ -23,8 +24,8 @@ permalink: /{{localizer.lang}}/index.html
                 <div id="sq-1" class="bg-[url(/public/imgs/hiking.jpg)] bg-center bg-cover rounded-2xl w-60 h-60 ml-4"></div>
             </div>
             <div>
-                <a href="/about">
-                    <div id="sq-1" class="bg-[#DDEB9D] dark:bg-[#262626] dark:text-white rounded-2xl w-184 h-120 mt-4 p-4 flex flex-col justify-center">
+                <a href="/{{localizer.lang}}/about">
+                    <div id="sq-1" class="bg-[#DDEB9D] dark:bg-[#262626] text-black dark:text-white rounded-2xl w-184 h-120 mt-4 p-4 flex flex-col justify-center">
                         <p class="text-[50px]">{{localizer.text1}}</p>
                         <p class="text-[35px]">{{localizer.text2}}</p>
                         <small class="text-[20px]">{{localizer.text3}}</small>
@@ -33,15 +34,19 @@ permalink: /{{localizer.lang}}/index.html
             </div>
         </div>
         <div class="ml-4">
-            <div id="sq-1" class="bg-[#A0C878] dark:bg-[#262626] rounded-2xl w-60 h-120"></div>
-            <div id="sq-1" class="bg-[#FAF6E9] dark:bg-[#262626] rounded-2xl w-60 h-60 mt-4"></div>
+            <a href="/{{localizer.lang}}/work">
+                <div id="sq-1" class="bg-[#A0C878] dark:bg-[#262626] text-black dark:text-white rounded-2xl w-60 h-120 flex items-center justify-center">
+                    <h2 class="text-5xl text-wrap">My Work</h2>
+                </div>
+            </a>
+            <div id="sq-1" class="bg-[url(/public/imgs/coffee.jpg)] bg-center bg-cover rounded-2xl w-60 h-60 mt-4"></div>
         </div>
         <div class="ml-4">
             <div class="flex">
                 <div id="sq-1" class="bg-[#DDEB9D] dark:bg-[#262626] rounded-2xl w-60 h-120"></div>
                 <div class="ml-4">
                     <a href="https://links.chriseadie.com">
-                        <div id="sq-1" class="bg-[#A0C878] dark:bg-[#262626] dark:text-white  rounded-2xl w-60 h-58 flex items-center justify-center">
+                        <div id="sq-1" class="bg-[#A0C878] dark:bg-[#262626] text-black dark:text-white  rounded-2xl w-60 h-58 flex items-center justify-center">
                             <h2 class="text-4xl text-wrap">
                                 {{localizer.text4}}
                             </h2>
@@ -51,9 +56,9 @@ permalink: /{{localizer.lang}}/index.html
                 </div>
             </div>
             <div class=" mt-4">
-                <a href="/contact">
-                    <div id="sq-1" class="bg-[#DDEB9D] dark:bg-[#262626] dark:text-white rounded-2xl w-124 h-60 flex items-center justify-center p-4">
-                        <h2 class="text-4xl text-wrap">
+                <a href="/{{localizer.lang}}/contact">
+                    <div id="sq-1" class="bg-[#DDEB9D] dark:bg-[#262626] text-black dark:text-white rounded-2xl w-124 h-60 flex items-center justify-center p-4">
+                        <h2 class="text-4xl text-wrap text-center">
                             {{localizer.text5}}
                         </h2>
                     </div>
